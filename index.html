@@ -87,6 +87,12 @@
       padding: 0.5rem 0.6rem 0.25rem;
     }
 
+    .coming-soon {
+      opacity: 0.6;
+      cursor: default;
+      pointer-events: none;
+    }
+
     .data-emoji { font-size: 1.1em; line-height: 1; }
   </style>
 </head>
@@ -142,20 +148,18 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Code Link. -->
+              <!-- Code Link. TODO: restore href="https://github.com/yuqunw/R2R" and remove "coming-soon" when released -->
               <span class="link-block">
-                <a href="https://github.com/yuqunw/R2R"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a class="external-link button is-normal is-rounded is-dark coming-soon" aria-disabled="true">
                   <span class="icon"><i class="fab fa-github"></i></span>
-                  <span>Code</span>
+                  <span>Code (Coming Soon)</span>
                 </a>
               </span>
-              <!-- Data Link. TODO: confirm the Hugging Face repo name -->
+              <!-- Data Link. TODO: restore href="https://huggingface.co/datasets/yuqun/R2R" (confirm repo name) and remove "coming-soon" when released -->
               <span class="link-block">
-                <a href="https://huggingface.co/datasets/yuqun/R2R"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a class="external-link button is-normal is-rounded is-dark coming-soon" aria-disabled="true">
                   <span class="icon"><span class="data-emoji">🤗</span></span>
-                  <span>Data</span>
+                  <span>Data (Coming Soon)</span>
                 </a>
               </span>
             </div>
