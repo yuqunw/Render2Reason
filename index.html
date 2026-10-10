@@ -110,6 +110,7 @@
         <a href="#ablation" style="color: #4a5568;">Ablation</a>
         <a href="#rendering" style="color: #4a5568;">Rendering</a>
         <a href="#pointqa" style="color: #4a5568;">3D-Point-QA</a>
+        <a href="#BibTeX" style="color: #4a5568;">BibTeX</a>
       </div>
     </div>
   </div>
@@ -226,7 +227,7 @@
     <!-- VSI-Bench -->
     <h3 class="title is-5" style="margin-top: 1.5rem; margin-bottom: 0.5rem;">VSI-Bench</h3>
     <p class="has-text-justified" style="font-size: 0.95rem; color: #4a5568;">
-      Evaluated with 128 input views. R2R with the Qwen3-VL backbone achieves 74.4 average accuracy, the best among all compared methods, with less training data.
+      Evaluated with 128 input views. R2R with the Qwen3-VL backbone achieves 75.3 average accuracy, the best among all compared methods, with less training data.
       Best results are <b>bolded</b>. <i>#QA</i> denotes the number of spatial training QAs. 9B parameters include the frozen geometry encoder.
     </p>
     <div class="table-wrap">
@@ -264,9 +265,9 @@
           <tr><td>SenseNova-SI</td><td>InternVL3</td><td>8B</td><td>8M</td><td class="avg">68.8</td><td>72.0</td><td>53.5</td><td>76.8</td><td>72.8</td><td>69.6</td><td>80.8</td><td>48.5</td><td>76.4</td></tr>
           <tr><td>GeoThinker</td><td>Qwen3-VL</td><td>9B</td><td>1.1M</td><td class="avg">72.6</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr>
           <tr><td>Cambrian-S</td><td>Qwen2.5</td><td>7B</td><td>590K</td><td class="avg">67.5</td><td>73.2</td><td>50.5</td><td>74.9</td><td>72.2</td><td>71.1</td><td>76.2</td><td>41.8</td><td>80.1</td></tr>
-          <tr><td>Cambrian-P</td><td>Cambrian-S</td><td>7B</td><td>590K</td><td class="avg">73.7</td><td>74.9</td><td>60.1</td><td>76.0</td><td><b>76.9</b></td><td>74.8</td><td><b>89.5</b></td><td><b>52.6</b></td><td>85.0</td></tr>
+          <tr><td>Cambrian-P</td><td>Cambrian-S</td><td>7B</td><td>590K</td><td class="avg">73.7</td><td><b>74.9</b></td><td>60.1</td><td>76.0</td><td><b>76.9</b></td><td>74.8</td><td>89.5</td><td><b>52.6</b></td><td>85.0</td></tr>
           <tr class="ours"><td>Render2Reason</td><td>InternVL3.5</td><td>9B</td><td>394K</td><td class="avg">67.3</td><td>72.0</td><td>51.9</td><td>71.8</td><td>68.2</td><td>68.2</td><td>83.5</td><td>45.9</td><td>76.4</td></tr>
-          <tr class="ours"><td>Render2Reason</td><td>Qwen3-VL</td><td>9B</td><td>394K</td><td class="avg"><b>74.4</b></td><td><b>75.0</b></td><td><b>64.1</b></td><td><b>78.3</b></td><td>75.0</td><td><b>80.0</b></td><td>88.4</td><td>48.5</td><td><b>85.9</b></td></tr>
+          <tr class="ours"><td>Render2Reason</td><td>Qwen3-VL</td><td>9B</td><td>394K</td><td class="avg"><b>75.3</b></td><td>73.4</td><td><b>65.8</b></td><td><b>79.3</b></td><td>76.5</td><td><b>79.0</b></td><td><b>94.0</b></td><td>47.4</td><td><b>87.1</b></td></tr>
         </tbody>
       </table>
     </div>
@@ -443,8 +444,21 @@
   </div>
 </section>
 
+<!-- BibTeX -->
+<section class="section" id="BibTeX" style="background-color: #f8fafc;">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3">BibTeX</h2>
+    <pre><code>@article{wu2026render,
+  title   = {Render to Reason: Novel-View Semantic Prediction Improves Spatial Understanding in VLMs},
+  author  = {Wu, Yuqun and Xiao, Yao and Zou, Chuhang and Wang, Shenlong and Hoiem, Derek},
+  journal = {arXiv preprint arXiv:2610.05417},
+  year    = {2026}
+}</code></pre>
+  </div>
+</section>
+
 <!-- Acknowledgement -->
-<section class="section" id="acknowledgement" style="background-color: #f8fafc;">
+<section class="section" id="acknowledgement">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
